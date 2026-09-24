@@ -5,10 +5,25 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "curriculum-knowledge-graph"
 version = "0.1.0"
-description = "Directed curriculum graph for prerequisite reachability, isolated concept checks, and inspectable learning paths."
+description = "Typed, provenance-aware curriculum knowledge graph for prerequisite reasoning, alignment diagnostics, path analysis, and curriculum review."
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Devis Wawan Saputra"}]
+readme = "README.md"
+keywords = [
+  "curriculum",
+  "knowledge-graph",
+  "curriculum-mapping",
+  "instructional-design",
+  "learning-outcomes",
+  "competency-mapping",
+  "prerequisite-graph",
+  "education",
+  "python",
+]
+
+[project.urls]
+Repository = "https://github.com/devissaputra/curriculum_knowledge_graph"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
