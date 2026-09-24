@@ -1,0 +1,59 @@
+id,type,label,description,domain
+program.aied,Program,AI in Education Program,Synthetic interdisciplinary program,AI in Education
+course.math_foundations,Course,Mathematical Foundations,Quantitative foundations for later AI work,Mathematics
+course.data_foundations,Course,Data Foundations,Programming and data preparation foundations,Data
+course.ml_foundations,Course,Machine Learning Foundations,Core machine learning concepts and methods,Artificial Intelligence
+course.aied_systems,Course,AI in Education Systems,Learning analytics and adaptive systems,AI in Education
+course.responsible_ai,Course,Responsible AI,Explainability bias and responsible design,Responsible AI
+course.capstone,Course,AIED Capstone,Integrated evidence and design project,AI in Education
+module.sequence_models,Module,Sequence Models Module,Sequence-oriented learner modeling module,AI in Education
+module.evaluation,Module,Evaluation Module,Experiment and evaluation design module,Research Methods
+concept.algebra,Concept,Algebra,Symbolic and equation foundations,Mathematics
+concept.probability,Concept,Probability,Probability foundations,Mathematics
+concept.statistics,Concept,Statistics,Descriptive and inferential statistics,Mathematics
+concept.calculus,Concept,Calculus,Differential foundations,Mathematics
+concept.python,Concept,Python,Programming foundations,Computing
+concept.data_wrangling,Concept,Data Wrangling,Preparing structured learning data,Data
+concept.linear_models,Concept,Linear Models,Linear predictive models,Machine Learning
+concept.optimization,Concept,Optimization,Objective functions and optimization,Machine Learning
+concept.machine_learning,Concept,Machine Learning,Supervised learning foundations,Machine Learning
+concept.neural_networks,Concept,Neural Networks,Neural representation and training,Machine Learning
+concept.learning_analytics,Concept,Learning Analytics,Analysis of learning-process data,AI in Education
+concept.knowledge_tracing,Concept,Knowledge Tracing,Temporal learner knowledge modeling,AI in Education
+concept.recommender_systems,Concept,Learning Recommender Systems,Recommendation for learning contexts,AI in Education
+concept.experimental_design,Concept,Experimental Design,Study design and evaluation logic,Research Methods
+concept.explainability,Concept,Explainability,Model explanation concepts,Responsible AI
+concept.algorithmic_bias,Concept,Algorithmic Bias,Bias identification and analysis,Responsible AI
+concept.responsible_ai,Concept,Responsible AI,Governance-aware AI design,Responsible AI
+concept.data_governance,Concept,Data Governance,Governance of educational data,Responsible AI
+outcome.math_reasoning,LearningOutcome,Apply mathematical reasoning,Use mathematical reasoning in AI problems,, 
+outcome.statistical_reasoning,LearningOutcome,Interpret statistical evidence,Interpret uncertainty and statistical evidence,, 
+outcome.data_pipeline,LearningOutcome,Build a learning-data pipeline,Prepare and validate learning datasets,, 
+outcome.fit_models,LearningOutcome,Fit predictive models,Build transparent predictive baselines,, 
+outcome.optimize_models,LearningOutcome,Reason about optimization,Explain optimization choices,, 
+outcome.analyze_learning,LearningOutcome,Analyze learning processes,Use learning analytics responsibly,, 
+outcome.trace_knowledge,LearningOutcome,Model learner knowledge,Construct interpretable knowledge-tracing analyses,, 
+outcome.recommend_resources,LearningOutcome,Design learning recommendations,Design transparent learning-resource recommendations,, 
+outcome.design_experiments,LearningOutcome,Design evaluation studies,Plan credible empirical evaluations,, 
+outcome.explain_models,LearningOutcome,Explain AI models,Explain model behavior and limits,, 
+outcome.audit_bias,LearningOutcome,Audit algorithmic bias,Identify and document potential bias,, 
+outcome.communicate_evidence,LearningOutcome,Communicate evidence,Communicate evidence to educational stakeholders,, 
+competency.quantitative_reasoning,Competency,Quantitative Reasoning,Use quantitative evidence in educational decisions,, 
+competency.ai_engineering,Competency,AI Engineering,Build and evaluate AI systems,, 
+competency.learning_analytics,Competency,Learning Analytics,Analyze learning processes and evidence,, 
+competency.responsible_ai,Competency,Responsible AI,Design and review responsible AI systems,, 
+competency.curriculum_systems,Competency,Curriculum Systems,Model curriculum structures and alignment,, 
+assessment.math_exam,Assessment,Mathematics Evidence Review,Synthetic assessment for mathematical outcomes,, 
+assessment.data_lab,Assessment,Data Pipeline Lab,Synthetic data workflow assessment,, 
+assessment.ml_project,Assessment,Machine Learning Project,Synthetic modeling project,, 
+assessment.aied_project,Assessment,AIED Systems Project,Synthetic learning-analytics project,, 
+assessment.ethics_review,Assessment,Responsible AI Review,Synthetic responsible-AI assessment,, 
+assessment.capstone,Assessment,Integrated Capstone,Synthetic integrative capstone assessment,, 
+resource.math_notebook,Resource,Mathematics Notebook,Synthetic worked-example notebook,, 
+resource.stats_lab,Resource,Statistics Lab,Synthetic statistics practice resource,, 
+resource.python_lab,Resource,Python Lab,Synthetic programming lab,, 
+resource.ml_notebook,Resource,Machine Learning Notebook,Synthetic modeling notebook,, 
+resource.kt_simulator,Resource,Knowledge Tracing Simulator,Synthetic learner-modeling simulator,, 
+resource.recommender_case,Resource,Recommender Case,Synthetic learning-recommender case,, 
+resource.explainability_guide,Resource,Explainability Guide,Synthetic explanation-design guide,, 
+resource.ethics_case,Resource,Responsible AI Case,Synthetic bias and governance case,, 
