@@ -1,35 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Curriculum Knowledge Graph workflow</title>
-<desc id="desc">Five-stage workflow diagram for this research prototype.</desc>
-<rect width="1200" height="300" rx="24" fill="#f7f8fa"/>
-<text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17202a">Curriculum Knowledge Graph · baseline architecture</text>
-<text x="50" y="76" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#59636e">Current baseline, with each decision kept visible for review.</text>
-<rect x="50.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
-<circle cx="75.0" cy="145" r="14" fill="#38598b"/>
-<text x="75.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
-<text x="145.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Courses + outcomes</text>
-<line x1="248.0" y1="166.0" x2="269.5" y2="166.0" stroke="#8391a1" stroke-width="2"/>
-<path d="M 261.5 160.0 L 269.5 166.0 L 261.5 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
-<rect x="277.5" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
-<circle cx="302.5" cy="145" r="14" fill="#38598b"/>
-<text x="302.5" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
-<text x="372.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Graph model</text>
-<line x1="475.5" y1="166.0" x2="497.0" y2="166.0" stroke="#8391a1" stroke-width="2"/>
-<path d="M 489.0 160.0 L 497.0 166.0 L 489.0 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
-<rect x="505.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
-<circle cx="530.0" cy="145" r="14" fill="#38598b"/>
-<text x="530.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
-<text x="600.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Prerequisite closure</text>
-<line x1="703.0" y1="166.0" x2="724.5" y2="166.0" stroke="#8391a1" stroke-width="2"/>
-<path d="M 716.5 160.0 L 724.5 166.0 L 716.5 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
-<rect x="732.5" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
-<circle cx="757.5" cy="145" r="14" fill="#38598b"/>
-<text x="757.5" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
-<text x="827.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Coverage analysis</text>
-<line x1="930.5" y1="166.0" x2="952.0" y2="166.0" stroke="#8391a1" stroke-width="2"/>
-<path d="M 944.0 160.0 L 952.0 166.0 L 944.0 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
-<rect x="960.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
-<circle cx="985.0" cy="145" r="14" fill="#38598b"/>
-<text x="985.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">5</text>
-<text x="1055.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Curriculum review</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">Curriculum Knowledge Graph architecture</title>
+<desc id="desc">Typed curriculum entities and provenance-aware relations pass through semantic validation, graph reasoning, structural diagnostics, and expert curriculum review.</desc>
+<rect width="1200" height="330" rx="24" fill="#f7f8fa"/>
+<text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17202a">Curriculum Knowledge Graph · semantic architecture</text>
+<text x="50" y="76" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#59636e">Typed entities and relations are validated before graph reasoning or curriculum diagnostics.</text>
+
+<rect x="40" y="125" width="205" height="112" rx="16" fill="#fff" stroke="#38598b" stroke-width="2"/>
+<circle cx="65" cy="150" r="14" fill="#38598b"/><text x="65" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">1</text>
+<text x="142" y="151" text-anchor="middle" font-family="Arial" font-size="14" font-weight="600" fill="#26323d">Typed entities</text>
+<text x="142" y="174" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">courses · concepts · outcomes</text>
+<text x="142" y="195" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">competencies · assessments</text>
+
+<line x1="253" y1="181" x2="277" y2="181" stroke="#8391a1" stroke-width="2"/><path d="M269 175 L277 181 L269 187" fill="none" stroke="#8391a1" stroke-width="2"/>
+
+<rect x="285" y="125" width="205" height="112" rx="16" fill="#fff" stroke="#38598b" stroke-width="2"/>
+<circle cx="310" cy="150" r="14" fill="#38598b"/><text x="310" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">2</text>
+<text x="387" y="151" text-anchor="middle" font-family="Arial" font-size="14" font-weight="600" fill="#26323d">Typed relations</text>
+<text x="387" y="174" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">prerequisite · assesses</text>
+<text x="387" y="195" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">teaches · aligns · supports</text>
+
+<line x1="498" y1="181" x2="522" y2="181" stroke="#8391a1" stroke-width="2"/><path d="M514 175 L522 181 L514 187" fill="none" stroke="#8391a1" stroke-width="2"/>
+
+<rect x="530" y="125" width="205" height="112" rx="16" fill="#fff" stroke="#38598b" stroke-width="2"/>
+<circle cx="555" cy="150" r="14" fill="#38598b"/><text x="555" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">3</text>
+<text x="632" y="151" text-anchor="middle" font-family="Arial" font-size="14" font-weight="600" fill="#26323d">Semantic validation</text>
+<text x="632" y="174" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">type rules · provenance</text>
+<text x="632" y="195" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">duplicates · dangling links</text>
+
+<line x1="743" y1="181" x2="767" y2="181" stroke="#8391a1" stroke-width="2"/><path d="M759 175 L767 181 L759 187" fill="none" stroke="#8391a1" stroke-width="2"/>
+
+<rect x="775" y="125" width="185" height="112" rx="16" fill="#fff" stroke="#38598b" stroke-width="2"/>
+<circle cx="800" cy="150" r="14" fill="#38598b"/><text x="800" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">4</text>
+<text x="867" y="151" text-anchor="middle" font-family="Arial" font-size="14" font-weight="600" fill="#26323d">Graph reasoning</text>
+<text x="867" y="174" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">paths · cycles · ancestors</text>
+<text x="867" y="195" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">coverage · bottlenecks</text>
+
+<line x1="968" y1="181" x2="992" y2="181" stroke="#8391a1" stroke-width="2"/><path d="M984 175 L992 181 L984 187" fill="none" stroke="#8391a1" stroke-width="2"/>
+
+<rect x="1000" y="125" width="160" height="112" rx="16" fill="#fff" stroke="#38598b" stroke-width="2"/>
+<circle cx="1025" cy="150" r="14" fill="#38598b"/><text x="1025" y="155" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#fff">5</text>
+<text x="1080" y="151" text-anchor="middle" font-family="Arial" font-size="14" font-weight="600" fill="#26323d">Expert review</text>
+<text x="1080" y="174" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">inspect evidence</text>
+<text x="1080" y="195" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636e">revise curriculum</text>
+
+<text x="50" y="286" font-family="Arial" font-size="13" fill="#59636e">Graph structure creates review signals; it does not prove prerequisite truth, curriculum quality, or an optimal learner path.</text>
 </svg>
