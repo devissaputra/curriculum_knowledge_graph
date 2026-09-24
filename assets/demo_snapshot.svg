@@ -1,14 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-<title id="title">Curriculum Knowledge Graph demo snapshot</title>
-<desc id="desc">Example values produced by the synthetic demo included in this repository.</desc>
-<rect width="1200" height="280" rx="24" fill="#111827"/>
-<text x="52" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#f9fafb">Demo snapshot</text>
-<text x="52" y="76" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aeb8c5">Output from the bundled synthetic example. These are not research results.</text>
-<rect x="52.0" y="112" width="539.0" height="108" rx="14" fill="#1f2937" stroke="#46556a"/>
-<text x="70.0" y="142" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#93c5fd">Starting concept</text>
-<text x="70.0" y="172" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#f3f4f6">Algebra</text>
-<rect x="609.0" y="112" width="539.0" height="108" rx="14" fill="#1f2937" stroke="#46556a"/>
-<text x="627.0" y="142" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#93c5fd">Reachable concepts</text>
-<text x="627.0" y="172" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#f3f4f6">Calculus, Optimization</text>
-<text x="52" y="252" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8995a5">Run: python scripts/run_demo.py</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+<title id="title">Curriculum Knowledge Graph synthetic demo</title>
+<desc id="desc">The synthetic demo contains a multi-entity curriculum graph with deliberate cycle, orphan, alignment, assessment-load, bottleneck, and alternative-path cases.</desc>
+<rect width="1200" height="365" rx="24" fill="#111827"/>
+<text x="52" y="48" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#f9fafb">Synthetic curriculum knowledge-graph demo</text>
+<text x="52" y="76" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#aeb8c5">Typed curriculum entities + provenance-aware relations · synthetic data only.</text>
+
+<rect x="52" y="112" width="250" height="120" rx="14" fill="#1f2937" stroke="#46556a"/>
+<text x="70" y="142" font-family="Arial" font-size="13" font-weight="600" fill="#93c5fd">Prerequisite reasoning</text>
+<text x="70" y="172" font-family="Arial" font-size="16" font-weight="600" fill="#f3f4f6">cycle + alternative paths</text>
+<text x="70" y="198" font-family="Arial" font-size="13" fill="#cbd5e1">ancestors · shortest path</text>
+
+<rect x="320" y="112" width="250" height="120" rx="14" fill="#1f2937" stroke="#46556a"/>
+<text x="338" y="142" font-family="Arial" font-size="13" font-weight="600" fill="#93c5fd">Alignment diagnostics</text>
+<text x="338" y="172" font-family="Arial" font-size="16" font-weight="600" fill="#f3f4f6">unassessed outcome</text>
+<text x="338" y="198" font-family="Arial" font-size="13" fill="#cbd5e1">uncovered competency · orphan</text>
+
+<rect x="588" y="112" width="250" height="120" rx="14" fill="#1f2937" stroke="#46556a"/>
+<text x="606" y="142" font-family="Arial" font-size="13" font-weight="600" fill="#93c5fd">Structural diagnostics</text>
+<text x="606" y="172" font-family="Arial" font-size="16" font-weight="600" fill="#f3f4f6">bottleneck concepts</text>
+<text x="606" y="198" font-family="Arial" font-size="13" fill="#cbd5e1">components · coverage</text>
+
+<rect x="856" y="112" width="292" height="120" rx="14" fill="#1f2937" stroke="#46556a"/>
+<text x="874" y="142" font-family="Arial" font-size="13" font-weight="600" fill="#93c5fd">Assessment review</text>
+<text x="874" y="172" font-family="Arial" font-size="16" font-weight="600" fill="#f3f4f6">overloaded capstone</text>
+<text x="874" y="198" font-family="Arial" font-size="13" fill="#cbd5e1">target-count inspection</text>
+
+<text x="52" y="278" font-family="Arial" font-size="14" fill="#d1d5db">The demo also removes the deliberately marked cycle edges and then produces a valid topological concept sequence.</text>
+<text x="52" y="307" font-family="Arial" font-size="14" fill="#d1d5db">All graph entities, relations, confidence values, and review findings are synthetic demonstration data.</text>
+<text x="52" y="337" font-family="Arial" font-size="13" fill="#8995a5">Run: python scripts/run_demo.py</text>
 </svg>
