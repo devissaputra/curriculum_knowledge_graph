@@ -1,3 +1,7 @@
 source,target,relation
-algebra,calculus,prerequisite
-calculus,optimization,prerequisite
+concept.algebra,concept.linear_models,PREREQUISITE_OF
+concept.statistics,concept.learning_analytics,PREREQUISITE_OF
+course.aied_systems,outcome.trace_knowledge,HAS_OUTCOME
+assessment.aied_project,outcome.trace_knowledge,ASSESSES
+outcome.trace_knowledge,competency.learning_analytics,ALIGNS_WITH
+resource.kt_simulator,concept.knowledge_tracing,SUPPORTS
