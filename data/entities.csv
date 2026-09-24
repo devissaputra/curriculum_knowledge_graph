@@ -26,34 +26,34 @@ concept.explainability,Concept,Explainability,Model explanation concepts,Respons
 concept.algorithmic_bias,Concept,Algorithmic Bias,Bias identification and analysis,Responsible AI
 concept.responsible_ai,Concept,Responsible AI,Governance-aware AI design,Responsible AI
 concept.data_governance,Concept,Data Governance,Governance of educational data,Responsible AI
-outcome.math_reasoning,LearningOutcome,Apply mathematical reasoning,Use mathematical reasoning in AI problems,, 
-outcome.statistical_reasoning,LearningOutcome,Interpret statistical evidence,Interpret uncertainty and statistical evidence,, 
-outcome.data_pipeline,LearningOutcome,Build a learning-data pipeline,Prepare and validate learning datasets,, 
-outcome.fit_models,LearningOutcome,Fit predictive models,Build transparent predictive baselines,, 
-outcome.optimize_models,LearningOutcome,Reason about optimization,Explain optimization choices,, 
-outcome.analyze_learning,LearningOutcome,Analyze learning processes,Use learning analytics responsibly,, 
-outcome.trace_knowledge,LearningOutcome,Model learner knowledge,Construct interpretable knowledge-tracing analyses,, 
-outcome.recommend_resources,LearningOutcome,Design learning recommendations,Design transparent learning-resource recommendations,, 
-outcome.design_experiments,LearningOutcome,Design evaluation studies,Plan credible empirical evaluations,, 
-outcome.explain_models,LearningOutcome,Explain AI models,Explain model behavior and limits,, 
-outcome.audit_bias,LearningOutcome,Audit algorithmic bias,Identify and document potential bias,, 
-outcome.communicate_evidence,LearningOutcome,Communicate evidence,Communicate evidence to educational stakeholders,, 
-competency.quantitative_reasoning,Competency,Quantitative Reasoning,Use quantitative evidence in educational decisions,, 
-competency.ai_engineering,Competency,AI Engineering,Build and evaluate AI systems,, 
-competency.learning_analytics,Competency,Learning Analytics,Analyze learning processes and evidence,, 
-competency.responsible_ai,Competency,Responsible AI,Design and review responsible AI systems,, 
-competency.curriculum_systems,Competency,Curriculum Systems,Model curriculum structures and alignment,, 
-assessment.math_exam,Assessment,Mathematics Evidence Review,Synthetic assessment for mathematical outcomes,, 
-assessment.data_lab,Assessment,Data Pipeline Lab,Synthetic data workflow assessment,, 
-assessment.ml_project,Assessment,Machine Learning Project,Synthetic modeling project,, 
-assessment.aied_project,Assessment,AIED Systems Project,Synthetic learning-analytics project,, 
-assessment.ethics_review,Assessment,Responsible AI Review,Synthetic responsible-AI assessment,, 
-assessment.capstone,Assessment,Integrated Capstone,Synthetic integrative capstone assessment,, 
-resource.math_notebook,Resource,Mathematics Notebook,Synthetic worked-example notebook,, 
-resource.stats_lab,Resource,Statistics Lab,Synthetic statistics practice resource,, 
-resource.python_lab,Resource,Python Lab,Synthetic programming lab,, 
-resource.ml_notebook,Resource,Machine Learning Notebook,Synthetic modeling notebook,, 
-resource.kt_simulator,Resource,Knowledge Tracing Simulator,Synthetic learner-modeling simulator,, 
-resource.recommender_case,Resource,Recommender Case,Synthetic learning-recommender case,, 
-resource.explainability_guide,Resource,Explainability Guide,Synthetic explanation-design guide,, 
-resource.ethics_case,Resource,Responsible AI Case,Synthetic bias and governance case,, 
+outcome.math_reasoning,LearningOutcome,Apply mathematical reasoning,Use mathematical reasoning in AI problems,Mathematics
+outcome.statistical_reasoning,LearningOutcome,Interpret statistical evidence,Interpret uncertainty and statistical evidence,Mathematics
+outcome.data_pipeline,LearningOutcome,Build a learning-data pipeline,Prepare and validate learning datasets,Data
+outcome.fit_models,LearningOutcome,Fit predictive models,Build transparent predictive baselines,Machine Learning
+outcome.optimize_models,LearningOutcome,Reason about optimization,Explain optimization choices,Machine Learning
+outcome.analyze_learning,LearningOutcome,Analyze learning processes,Use learning analytics responsibly,AI in Education
+outcome.trace_knowledge,LearningOutcome,Model learner knowledge,Construct interpretable knowledge-tracing analyses,AI in Education
+outcome.recommend_resources,LearningOutcome,Design learning recommendations,Design transparent learning-resource recommendations,AI in Education
+outcome.design_experiments,LearningOutcome,Design evaluation studies,Plan credible empirical evaluations,Research Methods
+outcome.explain_models,LearningOutcome,Explain AI models,Explain model behavior and limits,Responsible AI
+outcome.audit_bias,LearningOutcome,Audit algorithmic bias,Identify and document potential bias,Responsible AI
+outcome.communicate_evidence,LearningOutcome,Communicate evidence,Communicate evidence to educational stakeholders,AI in Education
+competency.quantitative_reasoning,Competency,Quantitative Reasoning,Use quantitative evidence in educational decisions,Mathematics
+competency.ai_engineering,Competency,AI Engineering,Build and evaluate AI systems,Artificial Intelligence
+competency.learning_analytics,Competency,Learning Analytics,Analyze learning processes and evidence,AI in Education
+competency.responsible_ai,Competency,Responsible AI,Design and review responsible AI systems,Responsible AI
+competency.curriculum_systems,Competency,Curriculum Systems,Model curriculum structures and alignment,Instructional Design
+assessment.math_exam,Assessment,Mathematics Evidence Review,Synthetic assessment for mathematical outcomes,Mathematics
+assessment.data_lab,Assessment,Data Pipeline Lab,Synthetic data workflow assessment,Data
+assessment.ml_project,Assessment,Machine Learning Project,Synthetic modeling project,Machine Learning
+assessment.aied_project,Assessment,AIED Systems Project,Synthetic learning-analytics project,AI in Education
+assessment.ethics_review,Assessment,Responsible AI Review,Synthetic responsible-AI assessment,Responsible AI
+assessment.capstone,Assessment,Integrated Capstone,Synthetic integrative capstone assessment,AI in Education
+resource.math_notebook,Resource,Mathematics Notebook,Synthetic worked-example notebook,Mathematics
+resource.stats_lab,Resource,Statistics Lab,Synthetic statistics practice resource,Mathematics
+resource.python_lab,Resource,Python Lab,Synthetic programming lab,Computing
+resource.ml_notebook,Resource,Machine Learning Notebook,Synthetic modeling notebook,Machine Learning
+resource.kt_simulator,Resource,Knowledge Tracing Simulator,Synthetic learner-modeling simulator,AI in Education
+resource.recommender_case,Resource,Recommender Case,Synthetic learning-recommender case,AI in Education
+resource.explainability_guide,Resource,Explainability Guide,Synthetic explanation-design guide,Responsible AI
+resource.ethics_case,Resource,Responsible AI Case,Synthetic bias and governance case,Responsible AI
