@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Curriculum Knowledge Graph workflow</title>
+<desc id="desc">Five-stage workflow diagram for this research prototype.</desc>
+<rect width="1200" height="300" rx="24" fill="#f7f8fa"/>
+<text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#17202a">Curriculum Knowledge Graph · baseline architecture</text>
+<text x="50" y="76" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#59636e">Current baseline, with each decision kept visible for review.</text>
+<rect x="50.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
+<circle cx="75.0" cy="145" r="14" fill="#38598b"/>
+<text x="75.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+<text x="145.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Courses + outcomes</text>
+<line x1="248.0" y1="166.0" x2="269.5" y2="166.0" stroke="#8391a1" stroke-width="2"/>
+<path d="M 261.5 160.0 L 269.5 166.0 L 261.5 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
+<rect x="277.5" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
+<circle cx="302.5" cy="145" r="14" fill="#38598b"/>
+<text x="302.5" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+<text x="372.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Graph model</text>
+<line x1="475.5" y1="166.0" x2="497.0" y2="166.0" stroke="#8391a1" stroke-width="2"/>
+<path d="M 489.0 160.0 L 497.0 166.0 L 489.0 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
+<rect x="505.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
+<circle cx="530.0" cy="145" r="14" fill="#38598b"/>
+<text x="530.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+<text x="600.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Prerequisite closure</text>
+<line x1="703.0" y1="166.0" x2="724.5" y2="166.0" stroke="#8391a1" stroke-width="2"/>
+<path d="M 716.5 160.0 L 724.5 166.0 L 716.5 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
+<rect x="732.5" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
+<circle cx="757.5" cy="145" r="14" fill="#38598b"/>
+<text x="757.5" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
+<text x="827.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Coverage analysis</text>
+<line x1="930.5" y1="166.0" x2="952.0" y2="166.0" stroke="#8391a1" stroke-width="2"/>
+<path d="M 944.0 160.0 L 952.0 166.0 L 944.0 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
+<rect x="960.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
+<circle cx="985.0" cy="145" r="14" fill="#38598b"/>
+<text x="985.0" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">5</text>
+<text x="1055.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Curriculum review</text>
+</svg>

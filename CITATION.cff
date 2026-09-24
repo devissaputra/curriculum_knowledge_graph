@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Curriculum Knowledge Graph"
+type: software
+authors:
+  - family-names: "Saputra"
+    given-names: "Devis Wawan"
+repository-code: "https://github.com/devissaputra/curriculum-knowledge-graph"
+license: MIT
+version: 0.1.0

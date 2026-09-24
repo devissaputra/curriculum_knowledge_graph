@@ -1,0 +1,2 @@
+# Core demo uses only the Python standard library.
+# Add pinned research dependencies only when a concrete experiment requires them.

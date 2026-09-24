@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curriculum-knowledge-graph"
+version = "0.1.0"
+description = "Directed curriculum graph for prerequisite reachability, isolated concept checks, and inspectable learning paths."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Devis Wawan Saputra"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
