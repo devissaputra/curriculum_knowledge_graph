@@ -1,1 +1,1 @@
-"""Research prototype package."""
+"""Typed curriculum knowledge graph and curriculum-reasoning tools."""
