@@ -1,14 +1,29 @@
 # Curriculum Knowledge Graph
 
+This curriculum graph represents courses, concepts, outcomes, assessments, and resources through typed, provenance-aware relationships. It validates relation semantics and exposes prerequisite paths, cycles, disconnected entities, and assessment-coverage gaps. These structural diagnostics help experts inspect a curriculum; the graph does not independently verify the pedagogical truth of its edges.
+
+## Start here
+
+- [Calculations, evidence and verification scope](CALCULATIONS.md)
+- [Figure sources and exact numerical paths](docs/figure_spec.json)
+- [Data status](data/README.md)
+
+![Study question, data, design and interpretation](assets/review_overview.svg)
+
+![Defined calculation and source-linked evidence](assets/review_calculations.svg)
+
+**Review scope:** 36 existing unittest checks passed. The bundled demonstration executed successfully in this review.
+
+## Detailed project documentation
+
 > Typed, provenance-aware curriculum knowledge graph for prerequisite reasoning, curriculum alignment diagnostics, path analysis, and expert review.
 
 [![CI](https://github.com/devissaputra/curriculum_knowledge_graph/actions/workflows/ci.yml/badge.svg)](https://github.com/devissaputra/curriculum_knowledge_graph/actions/workflows/ci.yml)
 
-![Curriculum Knowledge Graph architecture](assets/architecture.svg)
 
 **Area:** AI in Education · Instructional Design · Curriculum Intelligence  
 **Status:** working research prototype  
-**Author:** Devis Wawan Saputra
+**Author:** Devis Saputra
 
 ## Why this project exists
 
@@ -53,7 +68,6 @@ The current implementation represents multiple kinds of curriculum entities and 
 - `PREREQUISITE_OF`
 - `SUPPORTS`
 
-![Curriculum Knowledge Graph data flow](assets/data_flow.svg)
 
 Relation semantics are constrained.
 
@@ -223,7 +237,6 @@ Import validation checks:
 
 ## Synthetic demonstration
 
-![Curriculum Knowledge Graph synthetic demo](assets/demo_snapshot.svg)
 
 The bundled synthetic graph contains:
 
@@ -384,7 +397,6 @@ That boundary is deliberate.
 
 ## Evaluation checklist
 
-![Curriculum Knowledge Graph evaluation checklist](assets/evaluation_dashboard.svg)
 
 A real curriculum study should investigate:
 

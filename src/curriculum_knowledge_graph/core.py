@@ -1,3 +1,7 @@
+# Calculation reading guide: ../CALCULATIONS.md (repository root).
+# Coverage = eligible entities with a required relation / all eligible entities.
+# A graph edge is a supplied claim, not proof of a pedagogical dependency. Cycles prevent a valid prerequisite topological order. Coverage depends on the declared entity and relation definitions.
+
 import csv
 import json
 from collections import defaultdict, deque

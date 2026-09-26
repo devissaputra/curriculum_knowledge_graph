@@ -1,0 +1,22 @@
+{
+  "question": "Where are curriculum prerequisites and assessment gaps?",
+  "data": "Supplied typed entities and provenance-labeled relationships.",
+  "method": "Validate relation semantics; traverse prerequisites; detect cycles; inspect coverage, bottlenecks and alignment gaps.",
+  "formula": "Coverage = eligible entities with a required relation / all eligible entities.",
+  "interpretation": "A graph edge is a supplied claim, not proof of a pedagogical dependency. Cycles prevent a valid prerequisite topological order. Coverage depends on the declared entity and relation definitions.",
+  "status": "SYNTHETIC / RULE-BASED PROTOTYPE | no educational validity claim",
+  "source": "results/review_examples.json",
+  "rows": [
+    {
+      "label": "coverage: 3 assessed / 4 outcomes",
+      "path": [
+        "outputs",
+        "coverage: 3 assessed / 4 outcomes"
+      ],
+      "unit": "unitless"
+    }
+  ],
+  "table_title": "Worked example — illustrative, not a measured research result",
+  "evidence_note": "Illustrative inputs and calculations are in scripts/review_examples.py.",
+  "finding": "This curriculum graph represents courses, concepts, outcomes, assessments, and resources through typed, provenance-aware relationships. It validates relation semantics and exposes prerequisite paths, cycles, disconnected entities, and assessment-coverage gaps. These structural diagnostics help experts inspect a curriculum; the graph does not independently verify the pedagogical truth of its edges."
+}
